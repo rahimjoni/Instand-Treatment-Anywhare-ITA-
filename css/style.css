@@ -1,0 +1,111 @@
+.eye img{
+    
+    height: 350;
+    width: 900;
+}
+.eye{
+    margin-top: 40px;
+}
+
+.clearfix{
+    padding-left:50px;
+    position: fixed;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color:#29ABE2;
+    text-decoration: underline;
+}
+.link{
+    background-color: cadetblue;
+}
+
+h3 {
+    padding-top: none;
+    display: block;
+    font-size: 1.45em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 5px;
+    font-weight: bold;
+}
+
+
+
+           ul.drop{
+                list-style-type: none;
+                margin: 0px;
+                padding: 0px;
+                overflow: hidden;
+                padding-left: 620px;
+            }
+            /*ul.drop li:hover{
+                background: gray;
+            }*/
+            ul.drop li:hover ul{
+                display: block;
+            }
+            ul.drop li{
+                background-color:hsla(313,51%,59%,1);;
+                color: white;
+                float: left;
+                text-align: center;
+                padding: 10px 30px;
+               
+                
+            }
+            ul.drop li ul{
+                list-style-type: none;
+                margin: 0px;
+                padding: 0px;
+                display: none;
+            
+            }
+            ul.drop li ul li{
+                float: none;
+                border-right: none;
+                border-top: solid 1px pink;
+                margin-top: 5px;
+            }
+            ul.drop a{
+                text-decoration: none;
+            }
+        
+.demo-area{
+    padding-top: 200px;
+}
+
+
+
+/*@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}*/
+
+
+
+
+
+
+
+
+
+
